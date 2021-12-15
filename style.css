@@ -1,4 +1,4 @@
-/* Reset CSS */
+/* RESET CSS */
 
 * {
     margin: 0;
@@ -9,13 +9,13 @@
 /* ------------------------ */
 
 .container {
-    max-width: 1170px;
+    max-width: 1172px;
 }
 
 .header {
     height: 140px;
     margin: 0 auto;
-    margin-top: 22px;
+    margin-top: 24px;
     background: #D782E0;
 }
 
@@ -28,7 +28,7 @@
 
 .main-2 {
     margin: 0 auto;
-    margin-top: 34px;
+    margin-top: 32px;
     background: #2C88F6;
 }
 
@@ -62,3 +62,13 @@
     display: block;
     clear: both;
 }
+
+.footer {
+    height: 62px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    background: #7530EE;
+}
+
+/* FINE */
