@@ -6,4 +6,20 @@
     box-sizing: border-box;
 }
 
-/* --------------------- */
+/* ------------------------ */
+
+.debug .main-container {
+    height: 1500px;
+    background: yellow;
+}
+
+.debug .box {
+    max-width: 1172px;
+}
+
+.debug .header {
+    height: 140px;
+    margin: 0 auto;
+    margin-top: 22px;
+    background: #D782E0;
+}
