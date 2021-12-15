@@ -10,7 +10,6 @@
 
 .debug .main-container {
     height: 1500px;
-    background: yellow;
 }
 
 .debug .box {
@@ -22,4 +21,11 @@
     margin: 0 auto;
     margin-top: 22px;
     background: #D782E0;
+}
+
+.debug .first-section {
+    height: 510px;
+    margin: 0 auto;
+    margin-top: 28px;
+    background: #E0D686;
 }
