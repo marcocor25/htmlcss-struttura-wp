@@ -8,24 +8,57 @@
 
 /* ------------------------ */
 
-.debug .main-container {
-    height: 1500px;
+.container {
+    max-width: 1170px;
 }
 
-.debug .box {
-    max-width: 1172px;
-}
-
-.debug .header {
+.header {
     height: 140px;
     margin: 0 auto;
     margin-top: 22px;
     background: #D782E0;
 }
 
-.debug .first-section {
+.main-1 {
     height: 510px;
     margin: 0 auto;
     margin-top: 28px;
     background: #E0D686;
+}
+
+.main-2 {
+    margin: 0 auto;
+    margin-top: 34px;
+    background: #2C88F6;
+}
+
+.top-row, .column {
+    background: #B1CEE4;
+}
+
+.top-row {
+    width: 100%;
+    height: 85px;
+    margin-bottom: 25px;
+}
+
+.content {
+    width: 60%;
+    height: 545px;
+    margin: 0 20px;
+    margin-bottom: 25px;
+    float: left;
+}
+
+.sidebar {
+    width: calc(20% - 20px);
+    height: 545px;
+    margin-bottom: 25px;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
 }
